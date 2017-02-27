@@ -4,6 +4,7 @@
   "description": "myfed project",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/akim157/myfed/issues"
   },
-  "homepage": "https://github.com/akim157/myfed#readme"
+  "homepage": "https://github.com/akim157/myfed#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "webpack": "^2.2.1"
+  }
 }
